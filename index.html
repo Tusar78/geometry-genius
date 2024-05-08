@@ -24,22 +24,42 @@
       <div class="grid grid-cols-3 w-4/5 gap-6">
         <div class="border p-10 rounded-md flex flex-col items-center">
           <div class="w-[243px] h-[194px]">
-            <img class="w-full h-full" src="./assets/images/triangle.png" alt="Trinagle" />
+            <img
+              class="w-full h-full"
+              src="./assets/images/triangle.png"
+              alt="Trinagle"
+            />
           </div>
           <div class="my-12 text-center">
             <h3 class="text-2xl font-semibold mb-2">Triangle</h3>
             <p>Area (A) = 0.5 X b X h</p>
-            <div class="flex gap-4 pt-4 pb-12">
-              <div class="flex w-2/4 items-center  gap-2">
-                <input class="rounded bg-gray-50 w-full py-1" type="text" name="" id="" />
+            <div class="flex gap-4 pt-4 pb-4">
+              <div class="flex w-2/4 items-center gap-2">
+                <input
+                  class="rounded bg-gray-100 w-full py-1 outline-0 px-2 focus:ring-1"
+                  type="text"
+                  name=""
+                  id="triangle-input1"
+                />
                 <label for="">cm</label>
               </div>
               <div class="flex w-2/4 items-center gap-2">
-                <input class="rounded bg-gray-50 w-full py-1" type="text" name="" id="" />
+                <input
+                  class="rounded bg-gray-100 w-full py-1 outline-0 px-2 focus:ring-1"
+                  type="text"
+                  name=""
+                  id="triangle-input2"
+                />
                 <label for="">cm</label>
               </div>
             </div>
-            <button class="px-8 py-2 rounded-lg block text-white bg-blue-600 mx-auto">Calculate</button>
+            <p class="mb-8">Area is: 10 cm<sup>2</sup></p>
+            <button
+              id="triangle-btn"
+              class="px-8 py-2 rounded-lg block text-white bg-blue-600 mx-auto"
+            >
+              Calculate
+            </button>
           </div>
         </div>
       </div>
