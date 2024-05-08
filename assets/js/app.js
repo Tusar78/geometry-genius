@@ -18,7 +18,13 @@ const calculation = () => {
         const HALF = 0.5;
         const area = HALF * tr1 * tr2
         triangleOutput.innerText = area;
+    } else {
+        alert("Enter a number please")
+        triangleOutput.innerText = '0';
     }
+
+    triangleInput1.value = '';
+    triangleInput2.value = '';
 }
 
 

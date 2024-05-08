@@ -20,7 +20,7 @@
       </button>
     </div>
 
-    <div class="mt-8 w-4/5 flex justify-between mx-auto">
+    <div class="mt-8 w-4/5 flex justify-between gap-6 mx-auto">
       <div class="grid grid-cols-3 w-4/5 gap-6">
         <div class="border p-10 rounded-md flex flex-col items-center">
           <div class="w-[243px] h-[194px]">
@@ -32,6 +32,218 @@
           </div>
           <div class="my-12 text-center">
             <h3 class="text-2xl font-semibold mb-2">Triangle</h3>
+            <p>Area (A) = 0.5 X b X h</p>
+            <div class="flex gap-4 pt-4 pb-4">
+              <div class="flex w-2/4 items-center gap-2">
+                <input
+                  class="rounded bg-gray-100 w-full py-1 outline-0 px-2 focus:ring-1"
+                  type="text"
+                  name=""
+                  placeholder="b"
+                  id="triangle-input1"
+                />
+                <label for="">cm</label>
+              </div>
+              <div class="flex w-2/4 items-center gap-2">
+                <input
+                  class="rounded bg-gray-100 w-full py-1 outline-0 px-2 focus:ring-1"
+                  type="text"
+                  name=""
+                  placeholder="h"
+                  id="triangle-input2"
+                />
+                <label for="">cm</label>
+              </div>
+            </div>
+            <p class="mb-8">Area is: <span class="text-yellow-600 font-semibold" id="triangleOutput">0</span> cm<sup>2</sup></p>
+            <button
+              id="triangle-btn"
+              class="px-8 py-2 rounded-lg block text-white bg-blue-600 mx-auto"
+            >
+              Calculate
+            </button>
+          </div>
+        </div>
+        <div class="border p-10 rounded-md flex flex-col items-center">
+          <div class="w-[243px] h-[194px]">
+            <img
+              class="w-full h-full"
+              src="./assets/images/pentagon.png"
+              alt="Trinagle"
+            />
+          </div>
+          <div class="my-12 text-center">
+            <h3 class="text-2xl font-semibold mb-2">Pentagon</h3>
+            <p>Area (A) = 0.5 X b X h</p>
+            <div class="flex gap-4 pt-4 pb-4">
+              <div class="flex w-2/4 items-center gap-2">
+                <input
+                  class="rounded bg-gray-100 w-full py-1 outline-0 px-2 focus:ring-1"
+                  type="text"
+                  name=""
+                  placeholder="b"
+                  id="pentagon-input1"
+                />
+                <label for="">cm</label>
+              </div>
+              <div class="flex w-2/4 items-center gap-2">
+                <input
+                  class="rounded bg-gray-100 w-full py-1 outline-0 px-2 focus:ring-1"
+                  type="text"
+                  name=""
+                  placeholder="h"
+                  id="pentagon-input2"
+                />
+                <label for="">cm</label>
+              </div>
+            </div>
+            <p class="mb-8">Area is: <span class="text-yellow-600 font-semibold" id="pentagon-output">0</span> cm<sup>2</sup></p>
+            <button
+              id="pentagon-btn"
+              class="px-8 py-2 rounded-lg block text-white bg-blue-600 mx-auto"
+            >
+              Calculate
+            </button>
+          </div>
+        </div>
+
+
+        <div class="border p-10 rounded-md flex flex-col items-center">
+          <div class="w-[243px] h-[194px]">
+            <img
+              class="w-full h-full"
+              src="./assets/images/rectangle.png"
+              alt="Trinagle"
+            />
+          </div>
+          <div class="my-12 text-center">
+            <h3 class="text-2xl font-semibold mb-2">Rectangle</h3>
+            <p>Area (A) = 0.5 X b X h</p>
+            <div class="flex gap-4 pt-4 pb-4">
+              <div class="flex w-2/4 items-center gap-2">
+                <input
+                  class="rounded bg-gray-100 w-full py-1 outline-0 px-2 focus:ring-1"
+                  type="text"
+                  name=""
+                  placeholder="b"
+                  id="rectangle-input1"
+                />
+                <label for="">cm</label>
+              </div>
+              <div class="flex w-2/4 items-center gap-2">
+                <input
+                  class="rounded bg-gray-100 w-full py-1 outline-0 px-2 focus:ring-1"
+                  type="text"
+                  name=""
+                  placeholder="h"
+                  id="rectangle-input2"
+                />
+                <label for="">cm</label>
+              </div>
+            </div>
+            <p class="mb-8">Area is: <span class="text-yellow-600 font-semibold" id="rectangle-output">0</span> cm<sup>2</sup></p>
+            <button
+              id="rectangle-btn"
+              class="px-8 py-2 rounded-lg block text-white bg-blue-600 mx-auto"
+            >
+              Calculate
+            </button>
+          </div>
+        </div>
+        <div class="border p-10 rounded-md flex flex-col items-center">
+          <div class="w-[243px] h-[194px]">
+            <img
+              class="w-full h-full"
+              src="./assets/images/parallelogram.png"
+              alt="Trinagle"
+            />
+          </div>
+          <div class="my-12 text-center">
+            <h3 class="text-2xl font-semibold mb-2">Parallelogram</h3>
+            <p>Area (A) = 0.5 X b X h</p>
+            <div class="flex gap-4 pt-4 pb-4">
+              <div class="flex w-2/4 items-center gap-2">
+                <input
+                  class="rounded bg-gray-100 w-full py-1 outline-0 px-2 focus:ring-1"
+                  type="text"
+                  name=""
+                  placeholder="b"
+                  id="parallelogram-input1"
+                />
+                <label for="">cm</label>
+              </div>
+              <div class="flex w-2/4 items-center gap-2">
+                <input
+                  class="rounded bg-gray-100 w-full py-1 outline-0 px-2 focus:ring-1"
+                  type="text"
+                  name=""
+                  placeholder="h"
+                  id="parallelogram-input2"
+                />
+                <label for="">cm</label>
+              </div>
+            </div>
+            <p class="mb-8">Area is: <span class="text-yellow-600 font-semibold" id="parallelogram-output">0</span> cm<sup>2</sup></p>
+            <button
+              id="parallelogram-btn"
+              class="px-8 py-2 rounded-lg block text-white bg-blue-600 mx-auto"
+            >
+              Calculate
+            </button>
+          </div>
+        </div>
+        <div class="border p-10 rounded-md flex flex-col items-center">
+          <div class="w-[243px] h-[194px]">
+            <img
+              class="w-full h-full"
+              src="./assets/images/rhombus.png"
+              alt="Trinagle"
+            />
+          </div>
+          <div class="my-12 text-center">
+            <h3 class="text-2xl font-semibold mb-2">Rhombus</h3>
+            <p>Area (A) = 0.5 X b X h</p>
+            <div class="flex gap-4 pt-4 pb-4">
+              <div class="flex w-2/4 items-center gap-2">
+                <input
+                  class="rounded bg-gray-100 w-full py-1 outline-0 px-2 focus:ring-1"
+                  type="text"
+                  name=""
+                  placeholder="b"
+                  id="rhombus-input1"
+                />
+                <label for="">cm</label>
+              </div>
+              <div class="flex w-2/4 items-center gap-2">
+                <input
+                  class="rounded bg-gray-100 w-full py-1 outline-0 px-2 focus:ring-1"
+                  type="text"
+                  name=""
+                  placeholder="h"
+                  id="rhombus-input2"
+                />
+                <label for="">cm</label>
+              </div>
+            </div>
+            <p class="mb-8">Area is: <span class="text-yellow-600 font-semibold" id="rhombus-output">0</span> cm<sup>2</sup></p>
+            <button
+              id="rhombus-btn"
+              class="px-8 py-2 rounded-lg block text-white bg-blue-600 mx-auto"
+            >
+              Calculate
+            </button>
+          </div>
+        </div>
+        <div class="border p-10 rounded-md flex flex-col items-center">
+          <div class="w-[243px] h-[194px]">
+            <img
+              class="w-full h-full"
+              src="./assets/images/ellipse.png"
+              alt="Trinagle"
+            />
+          </div>
+          <div class="my-12 text-center">
+            <h3 class="text-2xl font-semibold mb-2">Ellipse</h3>
             <p>Area (A) = 0.5 X b X h</p>
             <div class="flex gap-4 pt-4 pb-4">
               <div class="flex w-2/4 items-center gap-2">
