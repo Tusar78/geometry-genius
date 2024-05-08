@@ -22,29 +22,31 @@
 
     <div class="mt-8 w-4/5 flex justify-between mx-auto">
       <div class="grid grid-cols-3 w-4/5 gap-6">
-        <div class="border p-10">
-          <div>
-            <img src="./assets/images/triangle.png" alt="Trinagle" />
+        <div class="border p-10 rounded-md flex flex-col items-center">
+          <div class="w-[243px] h-[194px]">
+            <img class="w-full h-full" src="./assets/images/triangle.png" alt="Trinagle" />
           </div>
-          <div class="">
-            <h3>Triangle</h3>
+          <div class="my-12 text-center">
+            <h3 class="text-2xl font-semibold mb-2">Triangle</h3>
             <p>Area (A) = 0.5 X b X h</p>
-            <div>
-              <div>
-                <input type="text" name="" id="" />
+            <div class="flex gap-4 pt-4 pb-12">
+              <div class="flex w-2/4 items-center  gap-2">
+                <input class="rounded bg-gray-50 w-full py-1" type="text" name="" id="" />
                 <label for="">cm</label>
               </div>
-              <div>
-                <input type="text" name="" id="" />
+              <div class="flex w-2/4 items-center gap-2">
+                <input class="rounded bg-gray-50 w-full py-1" type="text" name="" id="" />
                 <label for="">cm</label>
               </div>
             </div>
-            <button>Calculate</button>
+            <button class="px-8 py-2 rounded-lg block text-white bg-blue-600 mx-auto">Calculate</button>
           </div>
         </div>
       </div>
-      <div class="w-1/5">
-        <h3>Area Calculation</h3>
+      <div class="w-1/5 border rounded-md flex justify-center py-4">
+        <div>
+          <h3 class="border-b">Area Calculation</h3>
+        </div>
       </div>
     </div>
 
